@@ -7,5 +7,6 @@ class Welcome {
         System.out.print("Enter your name: ");
         String name = sc.nextLine();
         System.out.println("This course will be fun, " + name + "!");
+        sc.close();
     }
 }
